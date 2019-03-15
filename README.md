@@ -93,3 +93,13 @@ MIX_ENV=prod mix compile
 
  * [Learn Functional Programming with Elixir (aka Smoke Book)](https://www.amazon.com/Learn-Functional-Programming-Elixir-Foundations/dp/168050245X/)
  * [Programming Elixir (aka Bottle Book)](https://www.amazon.com/Programming-Elixir-1-6-Functional-Concurrent/dp/1680502999/)
+
+## Code Examples
+
+The following code examples were created during reading the books and playing 
+around with the book code examples.
+
+### Smoke Book
+
+ * [Chapter 1 - Thinking Functionally](https://github.com/lexruee/learning-elixir/tree/master/smoke-book/chap1)
+ * [Chapter 2 - Working with Variables and Functions](https://github.com/lexruee/learning-elixir/tree/master/smoke-book/chap2)
