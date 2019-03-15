@@ -1,8 +1,59 @@
 # Learning Elixir 
 
+## Installation
+
+On Arch Linux, we can install elixir by simply running the following  `pacman` command:
+
+```
+sudo pacman -S elixir
+```
+
+This install the latest elixir version on the system level. However, for development 
+and testing purposes, it's more handy to use a version and virtual environment managment tool
+such as `asdf-vm`.
+
+
+## Managing multiple Elixir versions with asdf-vm
+
+To manage multiple elixir versions on your system, you can use the [asdf-vm](https://asdf-vm.com/#/).
+The later is a handy tool to install different versions of different programming 
+environments like erlang, elixir, nodejs etc.
+
+The installation is straightforward. One has just to git-clone the `adsf` git repository:
+
+```
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.0
+```
+
+Next, adapt your shell dotfile such as `.zshrc`:
+
+```
+echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.zshrc
+echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
+```
+
+Next, we install the elixir plugin:
+
+```
+asdf plugin-add elixir
+```
+
+Finally, we install the latest elixir version and set the local version:
+
+```
+asdf install elixir 1.8.1
+asdf local elixir 1.8.1
+```
+
+Notes:
+
+* To list all installed versions, run `asdf list elixir`.
+* To list all avaialble versions, run `asdf list-all elixir`.
+* For more details how to use `asdf`, run `asdf help`.
+
 ## Elixir Scripts
 
-Elixir Scrips have the file type `exs`. They can be directly run with the `elixir` command:
+Elixir Scripts have the file type `exs`. They can be directly run with the `elixir` command:
 
 ```
 elixir smoke-book/chap1/hello-world.exs
