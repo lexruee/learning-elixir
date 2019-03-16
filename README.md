@@ -8,8 +8,8 @@ On Arch Linux, we can install elixir by simply running the following  `pacman` c
 sudo pacman -S elixir
 ```
 
-This install the latest elixir version on the system level. However, for development 
-and testing purposes, it's more handy to use a version and virtual environment managment tool
+This installs the latest elixir version on the system level. However, for development 
+and testing purposes, it's more handy to use a virtual environment managment tool
 such as `asdf-vm`.
 
 
