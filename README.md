@@ -103,3 +103,5 @@ around with the book code examples.
 
  * [Chapter 1 - Thinking Functionally](https://github.com/lexruee/learning-elixir/tree/master/smoke-book/chap1)
  * [Chapter 2 - Working with Variables and Functions](https://github.com/lexruee/learning-elixir/tree/master/smoke-book/chap2)
+ * [Chapter 3 - Using Pattern Matching to Control the Program Flow](https://github.com/lexruee/learning-elixir/tree/master/smoke-book/chap3)
+ * [Chapter 4 - Diving into Recursion](https://github.com/lexruee/learning-elixir/tree/master/smoke-book/chap4)
