@@ -96,7 +96,7 @@ MIX_ENV=prod mix compile
 
 ## Code Examples
 
-The following code examples were created during reading the books and playing 
+The following code examples were created while reading the books and playing 
 around with the book code examples.
 
 ### Smoke Book
@@ -105,3 +105,6 @@ around with the book code examples.
  * [Chapter 2 - Working with Variables and Functions](https://github.com/lexruee/learning-elixir/tree/master/smoke-book/chap2)
  * [Chapter 3 - Using Pattern Matching to Control the Program Flow](https://github.com/lexruee/learning-elixir/tree/master/smoke-book/chap3)
  * [Chapter 4 - Diving into Recursion](https://github.com/lexruee/learning-elixir/tree/master/smoke-book/chap4)
+ * [Chapter 5 - Using Higher-Order Functions](https://github.com/lexruee/learning-elixir/tree/master/smoke-book/chap5)
+ * [Chapter 6 - Designing Your Elixir Applications](#TODO)
+ * [Chapter 7 - Handling Impure Functions](#TODO)
