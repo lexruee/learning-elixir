@@ -32,17 +32,20 @@ echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.zshrc
 echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
 ```
 
-Next, we install the elixir plugin:
+Next, we install the elixir plugin and erlang plugin:
 
 ```
 asdf plugin-add elixir
+asdf plugin-add erlang
 ```
 
-Finally, we install the latest elixir version and set the local version:
+Finally, we install the latest elixir and erlang version and set the local version in the .tool-versions file:
 
 ```
+asdf install erlang 21.3.2
 asdf install elixir 1.8.1
-asdf local elixir 1.8.1
+echo "elixir 1.8.1" >> .tool-versions
+echo "erlang 21.3.2" >> .tool-versions
 ```
 
 Notes:
