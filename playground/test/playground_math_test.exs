@@ -1,6 +1,7 @@
 defmodule Playground.MathTest do
   use ExUnit.Case
   alias Playground.Math, as: MyMath
+  doctest MyMath
 
   describe "factors" do
     test "returns a list of factors" do
