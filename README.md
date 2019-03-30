@@ -75,6 +75,7 @@ You can run it by enter `iex` in your shell. To leave it, enter twice Ctrl-C.
  * [Elixir Documentation](https://elixir-lang.org/docs.html)
  * [Elixir Learning Resources](https://elixir-lang.org/learning.html)
  * [Elixir Getting Started Guide](https://elixir-lang.org/getting-started/introduction.html)
+ * [Elixir School](https://elixirschool.com/en/)
 
 ## Book Resources
 
